@@ -77,3 +77,11 @@ footer {
     background: #111116;
     color: #777;
 }
+.item img {
+    width: 100%;       /* dopasuje do szerokości kontenera */
+    max-width: 250px;  /* nie rozciąga się za bardzo */
+    height: auto;      /* zachowuje proporcje */
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;    /* wyśrodkowanie */
+}
